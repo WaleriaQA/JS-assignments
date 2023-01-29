@@ -1,3 +1,7 @@
+Enter here https://www.worldometers.info/coronavirus/
+Go to DevTools
+Copy and paste the code below into the Console
+
 let total = document.getElementsByClassName("maincounter-number")[0].innerText;
 let totalNum = Number(total.replace(/,/g, ""));
 
